@@ -181,4 +181,7 @@
   <data name="Trickgif" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Trickgif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="menuScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menuScreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
