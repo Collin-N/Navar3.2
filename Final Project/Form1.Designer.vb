@@ -465,7 +465,7 @@ Partial Class Dungeon_1
         '
         'obsticle2
         '
-        Me.obsticle2.Image = CType(resources.GetObject("obsticle2.Image"), System.Drawing.Image)
+        Me.obsticle2.Image = Global.Final_Project.My.Resources.Resources.WALL_BLOCK
         Me.obsticle2.Location = New System.Drawing.Point(786, 265)
         Me.obsticle2.Name = "obsticle2"
         Me.obsticle2.Size = New System.Drawing.Size(146, 224)
@@ -474,7 +474,7 @@ Partial Class Dungeon_1
         '
         'obsticle
         '
-        Me.obsticle.Image = CType(resources.GetObject("obsticle.Image"), System.Drawing.Image)
+        Me.obsticle.Image = Global.Final_Project.My.Resources.Resources.WALL_BLOCK
         Me.obsticle.Location = New System.Drawing.Point(335, 265)
         Me.obsticle.Name = "obsticle"
         Me.obsticle.Size = New System.Drawing.Size(146, 224)

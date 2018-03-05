@@ -149,7 +149,7 @@ Partial Class Dungeon_Up
         '
         Me.drag.BackColor = System.Drawing.Color.MediumTurquoise
         Me.drag.Image = Global.Final_Project.My.Resources.Resources.Dragon
-        Me.drag.Location = New System.Drawing.Point(871, 266)
+        Me.drag.Location = New System.Drawing.Point(864, 266)
         Me.drag.Name = "drag"
         Me.drag.Size = New System.Drawing.Size(218, 205)
         Me.drag.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -179,7 +179,7 @@ Partial Class Dungeon_Up
         'picTalk
         '
         Me.picTalk.Image = CType(resources.GetObject("picTalk.Image"), System.Drawing.Image)
-        Me.picTalk.Location = New System.Drawing.Point(307, 306)
+        Me.picTalk.Location = New System.Drawing.Point(307, 277)
         Me.picTalk.Name = "picTalk"
         Me.picTalk.Size = New System.Drawing.Size(16, 89)
         Me.picTalk.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -319,27 +319,27 @@ Partial Class Dungeon_Up
         '
         'obsticle14
         '
-        Me.obsticle14.Image = CType(resources.GetObject("obsticle14.Image"), System.Drawing.Image)
-        Me.obsticle14.Location = New System.Drawing.Point(307, 399)
+        Me.obsticle14.Image = Global.Final_Project.My.Resources.Resources.Actual_good_wall__1_
+        Me.obsticle14.Location = New System.Drawing.Point(307, 372)
         Me.obsticle14.Name = "obsticle14"
-        Me.obsticle14.Size = New System.Drawing.Size(16, 89)
+        Me.obsticle14.Size = New System.Drawing.Size(16, 116)
         Me.obsticle14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.obsticle14.TabIndex = 70
         Me.obsticle14.TabStop = False
         '
         'obsticle15
         '
-        Me.obsticle15.Image = CType(resources.GetObject("obsticle15.Image"), System.Drawing.Image)
+        Me.obsticle15.Image = Global.Final_Project.My.Resources.Resources.Up_Wall
         Me.obsticle15.Location = New System.Drawing.Point(307, 126)
         Me.obsticle15.Name = "obsticle15"
-        Me.obsticle15.Size = New System.Drawing.Size(16, 174)
+        Me.obsticle15.Size = New System.Drawing.Size(16, 134)
         Me.obsticle15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.obsticle15.TabIndex = 68
         Me.obsticle15.TabStop = False
         '
         'obsticle13
         '
-        Me.obsticle13.Image = CType(resources.GetObject("obsticle13.Image"), System.Drawing.Image)
+        Me.obsticle13.Image = Global.Final_Project.My.Resources.Resources.SICK_WALL6_
         Me.obsticle13.Location = New System.Drawing.Point(307, 473)
         Me.obsticle13.Name = "obsticle13"
         Me.obsticle13.Size = New System.Drawing.Size(390, 15)
@@ -349,8 +349,8 @@ Partial Class Dungeon_Up
         '
         'obsticle12
         '
-        Me.obsticle12.Image = CType(resources.GetObject("obsticle12.Image"), System.Drawing.Image)
-        Me.obsticle12.Location = New System.Drawing.Point(681, 489)
+        Me.obsticle12.Image = Global.Final_Project.My.Resources.Resources.Up_Wall
+        Me.obsticle12.Location = New System.Drawing.Point(681, 474)
         Me.obsticle12.Name = "obsticle12"
         Me.obsticle12.Size = New System.Drawing.Size(16, 153)
         Me.obsticle12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -552,6 +552,7 @@ Partial Class Dungeon_Up
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1244, 739)
+        Me.Controls.Add(Me.obsticle15)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.drag)
         Me.Controls.Add(Me.FireMT)
@@ -572,7 +573,6 @@ Partial Class Dungeon_Up
         Me.Controls.Add(Me.Lava1)
         Me.Controls.Add(Me.pbHealth)
         Me.Controls.Add(Me.obsticle14)
-        Me.Controls.Add(Me.obsticle15)
         Me.Controls.Add(Me.obsticle13)
         Me.Controls.Add(Me.obsticle12)
         Me.Controls.Add(Me.FireDown2)

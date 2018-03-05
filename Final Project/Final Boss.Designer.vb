@@ -233,9 +233,9 @@ Partial Class Final_Boss
         '
         Me.BOSS.Cursor = System.Windows.Forms.Cursors.Cross
         Me.BOSS.Image = Global.Final_Project.My.Resources.Resources.llama
-        Me.BOSS.Location = New System.Drawing.Point(850, 298)
+        Me.BOSS.Location = New System.Drawing.Point(821, 287)
         Me.BOSS.Name = "BOSS"
-        Me.BOSS.Size = New System.Drawing.Size(108, 153)
+        Me.BOSS.Size = New System.Drawing.Size(146, 179)
         Me.BOSS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.BOSS.TabIndex = 45
         Me.BOSS.TabStop = False
@@ -310,7 +310,7 @@ Partial Class Final_Boss
         '
         'playerDown
         '
-        Me.playerDown.Image = CType(resources.GetObject("playerDown.Image"), System.Drawing.Image)
+        Me.playerDown.Image = Global.Final_Project.My.Resources.Resources.DARKBLUE_FRONT
         Me.playerDown.Location = New System.Drawing.Point(213, 145)
         Me.playerDown.Name = "playerDown"
         Me.playerDown.Size = New System.Drawing.Size(48, 50)
@@ -484,9 +484,9 @@ Partial Class Final_Boss
         '
         Me.princess.BackColor = System.Drawing.Color.MidnightBlue
         Me.princess.Image = Global.Final_Project.My.Resources.Resources.Evil_Robot__2_
-        Me.princess.Location = New System.Drawing.Point(1079, 312)
+        Me.princess.Location = New System.Drawing.Point(1079, 298)
         Me.princess.Name = "princess"
-        Me.princess.Size = New System.Drawing.Size(81, 105)
+        Me.princess.Size = New System.Drawing.Size(105, 140)
         Me.princess.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.princess.TabIndex = 40
         Me.princess.TabStop = False
@@ -503,7 +503,7 @@ Partial Class Final_Boss
         '
         'playerRight
         '
-        Me.playerRight.Image = CType(resources.GetObject("playerRight.Image"), System.Drawing.Image)
+        Me.playerRight.Image = Global.Final_Project.My.Resources.Resources.KnightSideRight_Darkblue
         Me.playerRight.Location = New System.Drawing.Point(213, 145)
         Me.playerRight.Name = "playerRight"
         Me.playerRight.Size = New System.Drawing.Size(48, 50)
@@ -513,7 +513,7 @@ Partial Class Final_Boss
         '
         'playerUp
         '
-        Me.playerUp.Image = CType(resources.GetObject("playerUp.Image"), System.Drawing.Image)
+        Me.playerUp.Image = Global.Final_Project.My.Resources.Resources.KnightBackSprite_Darkblue
         Me.playerUp.Location = New System.Drawing.Point(213, 145)
         Me.playerUp.Name = "playerUp"
         Me.playerUp.Size = New System.Drawing.Size(48, 50)
@@ -523,7 +523,7 @@ Partial Class Final_Boss
         '
         'playerLeft
         '
-        Me.playerLeft.Image = CType(resources.GetObject("playerLeft.Image"), System.Drawing.Image)
+        Me.playerLeft.Image = Global.Final_Project.My.Resources.Resources.KnightSideleft_Darkblue
         Me.playerLeft.Location = New System.Drawing.Point(213, 145)
         Me.playerLeft.Name = "playerLeft"
         Me.playerLeft.Size = New System.Drawing.Size(48, 50)

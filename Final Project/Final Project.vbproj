@@ -228,6 +228,16 @@
   <ItemGroup>
     <None Include="Resources\Trickgif.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Actual good wall %281%29.png" />
+    <Content Include="Resources\DARKBLUE FRONT.gif" />
+    <Content Include="Resources\KnightBackSprite%28Darkblue.gif" />
+    <Content Include="Resources\KnightSideleft%28Darkblue.gif" />
+    <Content Include="Resources\KnightSideRight%28Darkblue.gif" />
+    <Content Include="Resources\SICK WALL6%29.png" />
+    <Content Include="Resources\Up Wall.png" />
+    <Content Include="Resources\WALL BLOCK.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
