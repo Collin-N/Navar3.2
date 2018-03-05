@@ -63,6 +63,26 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Actual_good_wall() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Actual good wall", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Actual_good_wall__1_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Actual good wall (1)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Baby_Dragon__black_() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Baby Dragon (black)", resourceCulture)
@@ -265,6 +285,16 @@ Namespace My.Resources
         Friend ReadOnly Property Trickgif() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Trickgif", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Up_Wall() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Up Wall", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

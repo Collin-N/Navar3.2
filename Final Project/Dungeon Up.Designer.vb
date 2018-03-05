@@ -178,7 +178,7 @@ Partial Class Dungeon_Up
         '
         'picTalk
         '
-        Me.picTalk.Image = CType(resources.GetObject("picTalk.Image"), System.Drawing.Image)
+        Me.picTalk.Image = Global.Final_Project.My.Resources.Resources.Actual_good_wall__1_
         Me.picTalk.Location = New System.Drawing.Point(307, 306)
         Me.picTalk.Name = "picTalk"
         Me.picTalk.Size = New System.Drawing.Size(16, 89)
@@ -319,7 +319,7 @@ Partial Class Dungeon_Up
         '
         'obsticle14
         '
-        Me.obsticle14.Image = CType(resources.GetObject("obsticle14.Image"), System.Drawing.Image)
+        Me.obsticle14.Image = Global.Final_Project.My.Resources.Resources.Actual_good_wall__1_
         Me.obsticle14.Location = New System.Drawing.Point(307, 399)
         Me.obsticle14.Name = "obsticle14"
         Me.obsticle14.Size = New System.Drawing.Size(16, 89)
@@ -329,7 +329,7 @@ Partial Class Dungeon_Up
         '
         'obsticle15
         '
-        Me.obsticle15.Image = CType(resources.GetObject("obsticle15.Image"), System.Drawing.Image)
+        Me.obsticle15.Image = Global.Final_Project.My.Resources.Resources.Up_Wall
         Me.obsticle15.Location = New System.Drawing.Point(307, 126)
         Me.obsticle15.Name = "obsticle15"
         Me.obsticle15.Size = New System.Drawing.Size(16, 174)
@@ -339,7 +339,7 @@ Partial Class Dungeon_Up
         '
         'obsticle13
         '
-        Me.obsticle13.Image = CType(resources.GetObject("obsticle13.Image"), System.Drawing.Image)
+        Me.obsticle13.Image = Global.Final_Project.My.Resources.Resources.Actual_good_wall
         Me.obsticle13.Location = New System.Drawing.Point(307, 473)
         Me.obsticle13.Name = "obsticle13"
         Me.obsticle13.Size = New System.Drawing.Size(390, 15)
